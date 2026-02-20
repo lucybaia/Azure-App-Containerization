@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  api-service:
+    build: .
+    container_name: python-azure-app
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./app:/app  # This is "Hot Reload" - changes in your code reflect instantly
+    networks:
+      - azure-network
+
+networks:
+  azure-network:
+    driver: bridge
