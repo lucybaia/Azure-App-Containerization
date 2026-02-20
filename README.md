@@ -2,7 +2,7 @@
 
 This repository demonstrates the process of containerizing a Python-based API using Docker and preparing it for deployment on Azure. This project is part of my professional roadmap toward becoming a DevOps Engineer.
 
-## 🚀 Project Overview
+## 🚀 Project Overview 
 
 The application is a lightweight FastAPI service that serves as a foundation for cloud-native architectures. It illustrates key concepts of modern infrastructure:
 
